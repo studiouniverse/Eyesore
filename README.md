@@ -1,4 +1,4 @@
-#EYESORE!
+# EYESORE!
 ---
 
 [EYESORE!](https://studiouniverse.co/eyesore/) is a short puzzle-platformer built for the [JS13K 2017](http://2017.js13kgames.com/) competition. The theme was "lost" this year (or [LOST](https://www.youtube.com/watch?v=ZYfKHVdmjzQ) as I prefer to see it).
@@ -12,7 +12,7 @@ I'll revise this readme and do a full review after the competition has passed.
 Code
 ---
 
-THE GAME MUST BE PLAYED ON LOCALHOST OR A SERVER DUE TO THIS LINE OF CODE: context.getImageData (I'm pretty sure WebGL has a similar issue). Levels are created by reading each pixel in the .gif files. Due to browser cross-origin policies, reading image data when being served over the file system (file://) doesn't always work (looking at you, Chrome).
+_THE GAME MUST BE PLAYED ON LOCALHOST OR A SERVER DUE TO THIS LINE OF CODE:_ `context.getImageData`. (I'm pretty sure WebGL has a similar issue). Levels are created by reading each pixel in the .gif files. Due to browser cross-origin policies, reading image data when being served over the file system (file://) doesn't always work (looking at you, Chrome).
 
 Creating levels using .gifs in Photoshop (super zoomed-in, with pencil tool) is neat.
 
@@ -38,12 +38,12 @@ The third puzzle level seems to have the most challenging puzzle - I promise it'
 Compression
 ---
 
-I managed to get the final ZIP to weight in at ~11-12kb
+I managed to get the final ZIP to weigh in at ~11-12kb.
 
 1) Run gulp to concatenate the JS (creates l-concat.js)
 2) Run this uglify command to minify (creates /dist/l.js)
 
-      uglifyjs --compress --mangle --mangle-props --output ./dist/l.js -- ./l-concat.js
+`uglifyjs --compress --mangle --mangle-props --output ./dist/l.js -- ./l-concat.js`
 
 
 Omissions
@@ -53,6 +53,6 @@ I'm not great at making music, and felt it would distract me too much from the d
 
 I would've liked to add more levels, but the gifs take up too much space.
 
-More animations, and maybe some particle effects, would have also been a nice touch. Had some nice ideas for dying/reviving where your old body turns to ash.
+More animations, and maybe some particle effects, would have also been a nice touch. Had some nice ideas for dying/reviving where your old body turns to 'ash', and your new body grows at the start from that ash.
 
 Fun fact: in one version of the game your dead body became part of the level permanently, but I quickly removed the feature when I thought about all the problems that could cause.
