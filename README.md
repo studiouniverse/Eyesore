@@ -2,8 +2,7 @@
 
 [EYESORE!](https://studiouniverse.co/eyesore/) is a short puzzle-platformer built for the [JS13K 2017](http://2017.js13kgames.com/) competition. The theme was "lost" this year (or [LOST](https://www.youtube.com/watch?v=ZYfKHVdmjzQ) as I prefer to see it).
 
-
-[screenshot]: https://github.com/studiouniverse/Eyesore/blob/master/screenshot.png "EYESORE! screenshot"
+![ScreenShot](screenshot.png)
 
 Everything was done by me [@alpearcedev](https://twitter.com/alpearcedev). It took me around 3 weeks on/off to finish.
 
