@@ -13,7 +13,7 @@ I'll revise this readme and do a full review after the competition has passed.
 Code
 ---
 
-_THE GAME MUST BE PLAYED ON LOCALHOST OR A SERVER DUE TO THIS LINE OF CODE:_ `context.getImageData`. (I'm pretty sure WebGL has a similar issue). Levels are created by reading each pixel in the .gif files. Due to browser cross-origin policies, reading image data when being served over the file system (file://) doesn't always work (looking at you, Chrome).
+*THE GAME MUST BE PLAYED ON LOCALHOST OR A SERVER DUE TO THIS LINE OF CODE* : `context.getImageData`. (I'm pretty sure WebGL has a similar issue). Levels are created by reading each pixel in the .gif files. Due to browser cross-origin policies, reading image data when being served over the file system (file://) doesn't always work (looking at you, Chrome).
 
 Creating levels using .gifs in Photoshop (super zoomed-in, with pencil tool) is neat.
 
