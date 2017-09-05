@@ -1,0 +1,17 @@
+{
+  "name": "lost",
+  "version": "1.0.0",
+  "description": "lost game for js13k by al pearce (studio universe)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "al pearce",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-watch": "^4.3.11",
+    "uglify-js": "^3.0.28"
+  }
+}
