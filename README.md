@@ -36,6 +36,15 @@ You cling to ceilings automatically. I tried to make this obvious without 'telli
 
 The third puzzle level seems to have the most challenging puzzle - I promise it's possible, the level's not broken!
 
+Graphics
+---
+
+All sprites are generated when the game loads, including the assortment of tiles that forms the background and foreground layers.
+
+The layers are cached on their own canvas for performance. And the water just draws the main game composite in reverse.
+
+The game makes use of HSL colours. I would strongly recommend using HSL because creating colours just 'makes sense' when you are shifting light and saturation, rather than the amounts of r/g/b. Because of this approach, the game has quite a few colour schemes I almost went with. I will add screenshots at some point of each one I particularly liked!
+
 Compression
 ---
 
