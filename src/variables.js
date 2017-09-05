@@ -18,7 +18,7 @@ var gameHalf = gameHeight/2;
 var gameContext = newCanvas(gameWidth, gameHeight).ct;
 var game = gameContext.canvas;
 game.id = "c";
-document.body.append(game);
+document.body.appendChild(game);
 
 // -- Intro
 
